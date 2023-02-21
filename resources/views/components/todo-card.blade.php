@@ -7,7 +7,6 @@
             <form action="/todos/{{ $todo->id }}" method="POST">
                 @csrf
                 @method('PUT')
-
                 {{-- <input class="" type="checkbox"> --}}
                 <button type="submit" class="rounded-full text-large hover:text-blue-400 hover:scale-150">●</button>
             </form>

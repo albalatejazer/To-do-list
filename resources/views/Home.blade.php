@@ -35,7 +35,10 @@
                         @endif
                     @endforeach
                 @else
-                    <img src="/images/image.png" class="bg-orange-900" alt="">
+                    <div class="flex justify-center">
+
+                        <img class="w-96 bg-black" src="/images/image.png" class="bg-orange-900" alt="">
+                    </div>
                 @endunless
             </div>
             <div>
@@ -77,8 +80,8 @@
                             <button type="submit" class="btn btn-danger" data-bs-dismiss="toast"
                                 data-bs-dismiss="modal">Done!</button>
                         </div>
-                        <button type="button" class="btn-close" data-bs-dismiss="toast" data-bs-target="#my-toast"
-                            aria-label="Close">aaaa</button>
+                        {{-- <button type="button" class="btn-close" data-bs-dismiss="toast" data-bs-target="#my-toast"
+                            aria-label="Close">aaaa</button> --}}
 
                     </form>
                 </div>
